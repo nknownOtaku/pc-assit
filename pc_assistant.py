@@ -129,7 +129,10 @@ class PCAssistant:
                      font=ctk.CTkFont(size=13)).pack(anchor=align)
         
         # Auto scroll to bottom
-        self.log_frame._scrollbar.set(1.0)
+        try:
+            self.log_frame._scrollbar.set(1.0, 1.0)
+        except:
+            pass
 
     def clear_log(self):
         for widget in self.log_frame.winfo_children():
