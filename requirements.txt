@@ -1,0 +1,6 @@
+SpeechRecognition==6.0.0
+pyttsx3==2.90
+selenium==4.15.0
+requests==2.31.0
+pathlib2==2.3.7
+webdriver-manager==4.0.1
